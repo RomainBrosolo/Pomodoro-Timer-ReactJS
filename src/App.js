@@ -24,7 +24,7 @@ class App extends Component {
               this.setState({timeLast: this.state.timeLast - 1});
           }
       }
-    }, 250);
+    }, 1000);
   };
 
   timer = () => {
